@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+}
+.jjjj {
+  margin-left: 80%;
+  position: absolute; /* absolute make the image in moveple in a form,
+  relative make the image in, fixed make the image in a fixed formate */
+  top: 40px;
+  right: 360px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+.kk {
+  margin-left: 80%;
+  text-decoration: none;
+  border: 10px solid red;
+  background-color: red;
+  color: #f4f4f4;
+}

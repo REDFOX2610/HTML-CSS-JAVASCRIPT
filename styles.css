@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eb8a8a;
+}
+
+.container {
+  display: grid;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.co {
+  display: grid;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.con {
+  display: grid;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.item {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}

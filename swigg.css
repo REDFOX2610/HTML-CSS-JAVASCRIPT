@@ -1,0 +1,21 @@
+.pravin {
+  margin-left: 80%;
+  position: absolute; /* absolute make the image in moveple in a form,
+  relative make the image in, fixed make the image in a fixed formate */
+  top: 0%;
+  left: 100px;
+  width: 180px;
+  height: 150px;
+}
+h1 {
+  text-align: center;
+}
+.navin {
+  margin-right: 80%;
+  position: absolute; /* absolute make the image in moveple in a form,
+  relative make the image in, fixed make the image in a fixed formate */
+  top: 0%;
+  left: 100px;
+  width: 180px;
+  height: 150px;
+}
