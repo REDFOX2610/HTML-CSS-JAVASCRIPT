@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration form</title>
+  </head>
+  <body
+    style="
+      background-color: lightgray;
+      text-align: center;
+      font-size: larger;
+      margin: 20px;
+    "
+  >
+    <h1 style="text-align: center; color: coral">
+      <b>STUDENT REGISTRATION FORM </b>
+    </h1>
+    <hr color="grey" />
+    <form>
+      <label for="firstName">FIRST NAME:</label>
+      <input type="text" id="firstName" name="firstName" />
+      <br /><br />
+      <label for="lastName">LAST NAME:</label>
+      <input type="text" id="lastName" name="lastName" />
+      <br /><br />
+      <label for="date of birth">DATE OF BIRTH:</label>
+      <input type="date" id="date of birth" name="date of birth" />
+      <br /><br />
+      <label for="email">EMAIL:</label>
+      <input type="email" id="email" name="email" />
+      <br /><br />
+      <label for="label">MOBILE NUMBER</label>
+      <input type="text" id="label" name="label" />
+      <br /><br />
+      <label for="course">COURSE:</label>
+      <select id="course" name="course">
+        <option value="">SELECT A COURSE</option>
+        <option value="JAVA">JAVA</option>
+        <option value="C++">C++</option>
+        <option value=".NET">.NET</option>
+        <option value="PYTHON">PYTHON</option>
+      </select>
+      <br /><br />
+      <div class="gender">
+        <label>GENDER:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">MALE</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">FEMALE</label>
+      </div>
+      <br />
+      <label for="pincode">PIN CODE</label>
+      <input type="text" id="pincode" name="pincode" />
+      <br /><br />
+      <label for="state">STATE</label>
+      <input type="text" id="state" name="state" />
+      <br /><br />
+      <label for="country">COUNTRY</label>
+      <input type="text" id="country" name="country" />
+      <br />
+      <br />
+      <div class="courses">
+        <label>HOBBIES:</label><br />
+        <input type="checkbox" id="sports" name="activities" value="sports" />
+        <label for="sports">GYM</label>
+
+        <input type="checkbox" id="music" name="activities" value="music" />
+        <label for="music">MUSIC</label>
+
+        <input type="checkbox" id="arts" name="activities" value="arts" />
+        <label for="arts">DANCE</label>
+
+        <input type="checkbox" id="other" name="other" />
+        <label for="other">OTHER</label>
+        <input type="text" id="other" name="other" title="enter your hobbies" />
+      </div>
+      <br /><br />
+      <label for="address">ADDRESS:</label>
+      <textarea id="address" name="address"></textarea>
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
