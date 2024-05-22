@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javaScript</title>
+  </head>
+  <body style="padding-left: 35%; background-color: bisque">
+    <h1>MY FIRST JAVA SCRIPT FILE</h1>
+    <p>java script change the static web page into dynamic web page</p>
+    <button
+      style="position: absolute; right: 650px; width: 20%; height: 5%"
+      type="button"
+      onclick="example()"
+    >
+      Click Me!
+    </button>
+    <br />
+
+    <p id="demo">This is a demonstration.</p>
+
+    <script>
+      function example() {
+        document.getElementById("demo").innerHTML =
+          "hello welcome to java script";
+      }
+    </script>
+  </body>
+</html>
