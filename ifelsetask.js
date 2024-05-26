@@ -24,3 +24,8 @@ switch (car) {
     console.log(a + "cheepest one");
     break;
 }
+function uniq(a, b) {
+  return a * b;
+}
+var solluda = uniq(5, 5);
+console.log(solluda);
